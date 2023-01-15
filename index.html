@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e59b2b6d98.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Instagram bootstrap</title>
+</head>
+<body>
+  <nav class="navbar  navbar-expand-lg bg-body-secondary justify-content-center p-0">
+    <div class="container-fluid">
+      <a class="navbar-brand" ><i class="fa-brands fa-instagram"> </i>  Instagram</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex flex-row mb-3 mt-3 me-0">
+        <div class="p-0">
+            <button type="button mt-5" class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+               New post
+             </button>
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5 ms-0" id="staticBackdropLabel">Create a new post</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Caption:</p>
+                            <div class="card-body">
+                             <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Add your caption here">
+                            </div>
+                          </div>
+                    <div class="d-grid gap-2 d-md-block ">
+                        <button class="btn btn-light ms-4 mb-2" type="button"><i class="fa-solid fa-camera"></i></button>
+                        <button class="btn btn-light mb-2" type="button"><i class="fa-sharp fa-solid fa-location-dot"></i></button>
+                      </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="p-0 ms-2">
+            <div class="btn-group">
+                <button type="button" class="btn btn-secondary dropdown-toggle me-4" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Accesability</a></li>
+                  <li><a class="dropdown-item" href="#">Data</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-danger" >Log out</a></li>
+                </ul>
+              </div>
+        </div>
+      </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+      <ul class="nav nav-tabs d-flex justify-content-center mt-3" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-regular fa-square"></i></button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          <div class="container">
+            <div class="row d-flex justify-content-center align-items-center border mt-5 ">
+           
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://historia.nationalgeographic.com.es/medio/2018/02/27/paseo-por-egipto__1280x720.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://cdn.britannica.com/15/189715-050-4310222B/Dubai-United-Arab-Emirates-Burj-Khalifa-top.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://www.barcelo.com/guia-turismo/wp-content/uploads/2021/12/fin-de-semana-madrid-pal-3.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/4/47/New_york_times_square-terabass.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://www.travelandleisure.com/thmb/piuJo7LXwQqrznnfBX2MalhuI5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-water-of-leith-dean-village-EDINBURGH1222-4a8b983d67904d31b30a89d0587274e9.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://www.portugal.net/wp-content/uploads/sites/106/porto-panorama.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://www.germany.travel/media/redaktion/content/bundeslaender/berlin/Berlin_Brandenburger_Tor_im_Sonnenuntergang_Leitmotiv_German_Summer_Cities.jpg"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg?impolicy=fcrop&w=800&h=533&q=medium" class="card-img-top"></img></div>
+            <div class="col-4 mb-2 mt-2"><img  class="img-fluid" src="https://www.grecia.info/es/wp-content/uploads/sites/49/santorini-imerovigli.jpg"></img></div>
+          </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+
+
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Cairo</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>12/4</p>
+                </div>
+              </div>
+              <img src="https://historia.nationalgeographic.com.es/medio/2018/02/27/paseo-por-egipto__1280x720.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">Pyramids are so cool!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Dubai</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>13/5</p>
+                </div>
+              </div>
+              <img src="https://cdn.britannica.com/15/189715-050-4310222B/Dubai-United-Arab-Emirates-Burj-Khalifa-top.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">This city looks like the future! </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Madrid</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>4/6</p>
+                </div>
+              </div>
+              <img src="https://www.barcelo.com/guia-turismo/wp-content/uploads/2021/12/fin-de-semana-madrid-pal-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">Allways good to be in my home city</p>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Edhimburg</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>8/11</p>
+                </div>
+              </div>
+              <img src="https://www.travelandleisure.com/thmb/piuJo7LXwQqrznnfBX2MalhuI5c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-water-of-leith-dean-village-EDINBURGH1222-4a8b983d67904d31b30a89d0587274e9.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">Wow, this city really feels like I am in a Harry Potter movie</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Porto</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>9/2</p>
+                </div>
+              </div>
+              <img src="https://www.portugal.net/wp-content/uploads/sites/106/porto-panorama.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">Somebody said long bridges??</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Berlin</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>12/4</p>
+                </div>
+              </div>
+              <img src="https://www.germany.travel/media/redaktion/content/bundeslaender/berlin/Berlin_Brandenburger_Tor_im_Sonnenuntergang_Leitmotiv_German_Summer_Cities.jpg" class="card-img-top" alt="...">
+              <div class="card-body pt-3 border-top">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-tex pt-3 border-topt">Amazing city</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Istambul</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>12/6</p>
+                </div>
+              </div>
+              <img src="https://a.cdn-hotels.com/gdcs/production6/d781/3bae040b-2afb-4b11-9542-859eeb8ebaf1.jpg?impolicy=fcrop&w=800&h=533&q=medium" class="card-img-top" alt="...">
+              <div class="card-body pt-3 border-top">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">I don't know if I'm in Europe...or in Asia...</p>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-4 d-flex justify-content-center mt-3 ">
+            <div class="card " style="width: 50rem ;">
+              <div class="row">
+                <div class="col-10">
+                  <p class="fs-3 ms-2 "><strong>Santorini</strong></p>
+                </div>
+                <div class="col-2">
+                  <p>15/8</p>
+                </div>
+              </div>
+              <img src="https://www.grecia.info/es/wp-content/uploads/sites/49/santorini-imerovigli.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p><strong>Liked by 65.430</strong></p>
+                <p class="card-text pt-3 border-top">Holidays!</p>
+              </div>
+            </div>
+          </div>      
+      </div>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+</body>
+</html>
