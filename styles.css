@@ -1,0 +1,76 @@
+.rowGrid img {
+    width: 100%;
+    height: 90%;
+    margin-bottom: 5%;
+    border-radius: 2%;
+    object-fit: cover;
+    
+}
+
+.rowNavbar{
+    background-color: rgb(209, 209, 209);
+}
+
+.gdgd:hover{
+   -webkit-box-shadow: 2px 0px 53px -4px rgba(0,0,0,0.57);
+-moz-box-shadow: 2px 0px 53px -4px rgba(0,0,0,0.57);
+box-shadow: 2px 0px 53px -4px rgba(0,0,0,0.57);
+    /* box-shadow: 5px 5px 10px; */
+    
+}
+.cardBodyTitle{
+    background-color: rgb(216, 216, 216);
+}
+.likesInCard{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+footer{
+
+    border-top:1px solid rgb(209, 209, 209);
+    align-items: center;
+}
+.footerCaption{
+    color:rgb(139, 139, 139);
+    margin-top:10px;
+    text-align: center
+}
+.instagramBranding{
+    font-size: 40px;
+}
+
+.postCard{
+    border:2px solid rgb(62, 62, 62);
+    border-radius:5px
+}
+
+.postCaption{
+    border-top:1px solid rgb(135, 134, 134)
+}
+.cardTitle{
+    border-bottom: 1px solid rgb(135, 134, 134)
+}
+
+.card:hover{
+    -webkit-box-shadow: 2px 0px 53px -4px rgba(0,0,0,0.57);
+-moz-box-shadow: 2px 0px 53px -4px rgba(0,0,0,0.57);
+box-shadow: 2px 0px 53px -4px rgba(0,0,0,0.57);
+}
+
+.likeBtn{
+   color:rgb(0, 0, 0);
+    font-size: 2rem;
+    margin:0px
+}
+
+.likeBtn:hover{
+    color:red;
+    cursor: pointer;
+ }
+
+ .instagramBranding{
+    font-family: 'Updock', cursive;
+    font-size: 50px;
+}
